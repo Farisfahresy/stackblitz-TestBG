@@ -9,7 +9,8 @@ ol {
 }
 p {
   max-width: 800px;
-  font-size: large;
+  font-family: 'FontSaya';
+  font-size: 1.4em;
   margin: 20px auto; /* Menempatkan div di tengah halaman */
   text-align: center;
   color: #fff;
@@ -42,7 +43,7 @@ header {
   padding: 20px 40px;
   margin: 20px auto; /* Menempatkan div di tengah halaman */
   border-radius: 10px;
-  border: 2px solid blue; /* Menambahkan garis tepi berwarna biru */
+  border: 4px solid rgb(248, 153, 90);; /* Menambahkan garis tepi berwarna biru */
 }
 
 .advantages {
@@ -52,12 +53,12 @@ header {
   padding: 20px 40px;
   margin: 20px auto; /* Menempatkan div di tengah halaman */
   border-radius: 10px;
-  border: 2px solid blue; /* Menambahkan garis tepi berwarna biru */
+  border: 4px solid rgb(103, 103, 239); /* Menambahkan garis tepi berwarna biru */
 }
 
 .daftar {
-  max-width: 850px;
-  background-color: rgba(236, 117, 19, 0.7);
+  max-width: 870px;
+  background-color: rgb(236, 117, 19);
   text-align: center;
   padding: 5px;
   margin: 20px auto; /* Menempatkan div di tengah halaman */
@@ -80,7 +81,11 @@ hr {
   width: 850px; /* Panjang garis */
   background-color: rgb(255, 255, 255); /* Warna garis */
   margin: 20px auto; /* Margin untuk posisi di tengah */
-
+}
+@font-face {
+font-family: 'FontSaya';
+src: url('Rancho-Regular.ttf') format('tff'),
+}
 /* Footer styles */
 footer {
   color: #fff;
