@@ -1,0 +1,89 @@
+/* Reset default margin and padding */
+h1,
+h2,
+h3,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+p {
+  max-width: 800px;
+  font-size: large;
+  margin: 20px auto; /* Menempatkan div di tengah halaman */
+  text-align: center;
+  color: #fff;
+}
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-image: url('bg.jpg'); /* Menggunakan gambar sebagai background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  align-items: center; /* Mengatur posisi konten di tengah secara vertikal */
+}
+
+/* Header styles */
+header {
+  color: #fff;
+  padding: 20px 20px;
+  text-align: left;
+}
+
+/* Content styles */
+.content {
+  background-color: rgb(255, 255, 255);
+  color: rgb(103, 103, 239);
+  max-width: 800px;
+  padding: 20px 40px;
+  margin: 20px auto; /* Menempatkan div di tengah halaman */
+  border-radius: 10px;
+  border: 2px solid blue; /* Menambahkan garis tepi berwarna biru */
+}
+
+.advantages {
+  max-width: 800px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(248, 153, 90);
+  padding: 20px 40px;
+  margin: 20px auto; /* Menempatkan div di tengah halaman */
+  border-radius: 10px;
+  border: 2px solid blue; /* Menambahkan garis tepi berwarna biru */
+}
+
+.daftar {
+  max-width: 850px;
+  background-color: rgba(236, 117, 19, 0.7);
+  text-align: center;
+  padding: 5px;
+  margin: 20px auto; /* Menempatkan div di tengah halaman */
+  border-radius: 10px;
+  color: #fff;
+}
+
+
+.advantages h2 {
+  color: rgb(248, 153, 90);
+  padding: 10px;
+}
+.content h2{
+  color: rgb(103, 103, 239);
+  padding: 10px;
+}
+
+hr {
+  height: 2px; /* Ketebalan garis */
+  width: 850px; /* Panjang garis */
+  background-color: rgb(255, 255, 255); /* Warna garis */
+  margin: 20px auto; /* Margin untuk posisi di tengah */
+
+/* Footer styles */
+footer {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
